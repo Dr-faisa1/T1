@@ -1,0 +1,55 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f9ff;
+  margin: 0;
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); /* Adding a fun background */
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffeb3b;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  border: 5px solid #ff5722;
+}
+
+h1 {
+  color: #ff5722;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: #8bc34a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+button:hover {
+  background-color: #4caf50;
+  transform: scale(1.1);
+}
+
+#rewardDisplay {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3e2723;
+}
+
+#rewardDisplay::after {
+  content: "🎉"; /* Adding an emoji for fun */
+  font-size: 1.5em;
+  margin-left: 10px;
+}
